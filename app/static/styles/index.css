@@ -1,21 +1,26 @@
-.page-content{
+
+
+#gallery{
+    height: 200px;
+    aspect-ratio: 5/3;
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: row;
 }
 
-img{
-    border-radius: 25px;
+#gallery img{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
 }
 
 
 .pic-desc, .about-me{
-    background-color: #e8d9d9;
     border-radius: 25px;
-    margin: 30px;
-    width: 500px;
-    height: 600px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: auto;
     padding: 10px;
-    box-shadow: 2px 4px rosybrown;
 }
 
